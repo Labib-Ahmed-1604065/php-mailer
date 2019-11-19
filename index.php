@@ -1,3 +1,3 @@
 <?php
-require('form.php');
+require('mail.php');
 ?>
