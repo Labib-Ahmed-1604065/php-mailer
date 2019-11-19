@@ -1,11 +1,15 @@
-
-<form action="form.php" method="POST">
+<html>
+<body>
+<form action="mail.php" method="POST">
+	<label>From</label>
+	<input type="text" name="from" maxlength="50"><br>
 	<label>To</label>
-	<input type="text" name="to" maxlength="5"><br>
-	<label>subject</label>
+	<input type="text" name="to" maxlength="50"><br>
+	<label>Subject</label>
 	<input type="text" name="subject" ><br>
-	<label>body</label>
-	<input type="text" name="body" ><br>
-	<input type="submit" name="Submit" >
+	<label>Body</label>
+	<input type="text" name="body" maxlength="50"><br>
+	<input type="submit" name="SUBMIT" >
 </form>
-
+</body>
+</html>
