@@ -1,4 +1,5 @@
 <?php
+// you have to turn on less secure app access
 /**
  * PHPMailer SPL autoloader.
  * PHP Version 5
